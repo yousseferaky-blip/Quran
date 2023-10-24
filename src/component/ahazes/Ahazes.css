@@ -1,0 +1,43 @@
+.ahazes{
+    background: rgb(17, 97, 17);
+    color: #fff;
+    margin:  80px 0 0 0;
+    padding: 20px 0;
+}
+
+.ahazes .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:  30px;
+}
+
+.ahazes .btn button{
+    width: 120px;
+    height: 35px;
+    background: #fff;
+    color: rgb(6, 121, 6);
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ahazes .btn button:hover{
+    color: #fff;
+    background: rgb(6, 121, 6);
+    border: 1px solid rgb(85, 161, 85);
+
+}
+
+.content{
+    text-align: center;
+}
+
+.content p{
+    font-size: 25px ;
+    padding: 10px 30px;
+    letter-spacing: 1.6px;
+    line-height: 38px;
+}

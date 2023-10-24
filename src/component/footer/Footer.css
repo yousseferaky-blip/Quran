@@ -1,0 +1,114 @@
+
+footer{ 
+    margin-top: -20px;
+    background: rgb(2, 143, 2);
+    display: flex;
+}
+
+.Footer-left{
+    flex: 1;
+    text-align: center;
+    padding: 20px 5px ;
+    color: #fff;
+}
+
+.Footer-left h3{
+    font-size: 30px;
+}
+.Footer-left h6{
+    font-size: 15px;
+
+}
+
+.Footer-left .Footer-left-h6{
+    margin-top: -25px;
+}
+
+.Footer-left button{
+    width: 140px;
+    height: 50px;   
+    font-size: 22px; 
+    background: #ececec;
+    color: rgb(2, 143, 2);
+    border: 1px solid #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+    transition: 0.4s;
+
+}
+
+.Footer-left button::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50px;
+    background: rgb(13, 182, 13);
+    transition: 0.4s;
+    z-index: -9;
+}
+
+.Footer-left button:hover::after{
+    width: 100%;
+    height: 100%;
+}
+
+.Footer-left button:hover {
+    color: #fff;
+    background: rgb(2, 143, 2);
+    border: 1px solid #fff;
+}
+
+.Footer-right{
+    flex: 1;
+    text-align: center;
+    padding: 20px 5px ;
+
+}
+
+.Footer-right h2{
+    font-size: 30px;
+    color: #fff;
+}
+.Footer-right div i{
+    color: #fff;
+    margin-right: 25px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 0 25px 0 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Footer-right div .fa-facebook:hover{
+    background : rgb(105, 105, 253);
+}
+.Footer-right div .fa-instagram:hover{
+    background : rgb(223, 11, 11);
+}
+.Footer-right div .fa-twitter:hover{
+    background : #111;
+}
+
+.Footer-Name{
+    background: rgb(26, 180, 26);
+    margin-top: -10px;
+    padding: 7px 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 770px) {
+    footer{ 
+        display: flex;
+        flex-direction: column;
+    }
+}
+

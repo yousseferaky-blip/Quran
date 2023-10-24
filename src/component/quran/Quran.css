@@ -1,0 +1,66 @@
+
+.qyran-Container{
+    height: auto;
+    width: 100%;
+    margin-top: 80px; 
+    background: #e7e6e6;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 20px ;
+}
+
+.qyran-Container .quran{
+    background: #fff;
+    margin: 20px 10px ;
+    padding: 20px ;
+    border-radius: 25px 0 25px 0;
+    cursor: pointer;
+    border: 2px solid gray;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+
+.qyran-Container .quran:hover{
+    background: rgb(32, 114, 32);
+    color: #fff;
+}
+
+@media screen and (max-width:700px){
+    .qyran-Container{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .qyran-Container .quran{
+        padding: 20px;
+       
+    }
+}
+
+@media screen and (max-width:520px){
+    .qyran-Container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 50px 10px ;
+    }
+
+    .qyran-Container .quran{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:290px){
+    .qyran-Container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 45px 5px ;
+    }
+     
+    .qyran-Container .quran{
+        margin: 20px 7px ;
+        padding: 10px;
+    }
+    
+}
+
+/* +++++++++++++++++++++++++++ */

@@ -1,0 +1,40 @@
+.quranAll-Container{
+    margin-top: 80px;
+    background: #d4d4d4;;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quranAll-Container h1,
+.quranAll-Container .quranAll h2{
+    color: rgb(10, 129, 10);
+}
+
+.quranAll-Container span{
+    color: #000;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.quranAll-Container .quranAll {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:550px) {
+    .quranAll-Container span{
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+    .quranAll-Container .quranAll {
+        gap: 15px;
+    }
+      
+}
+
